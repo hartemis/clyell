@@ -2,7 +2,7 @@
 layout: post
 title: Nobetçi Eczaneler Telegram Botu
 date: 2022-07-15 03:20:00 +0200
-categories: Project
+categories: project
 tags: telegram bot python
 image: 
 ---

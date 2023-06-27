@@ -2,7 +2,7 @@
 layout: post
 title: AntiSpamBot
 date: 2022-01-06 12:10:00 +0200
-categories: Project
+categories: project
 tags: telegram bot python
 image: 
 ---

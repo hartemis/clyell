@@ -2,7 +2,7 @@
 layout: post
 title: Mirror Leech Telegram Bot
 date: 2022-07-08 03:20:00 +0200
-categories: Project
+categories: project
 tags: ["telegram", "torrent", "python", "telegram-bot"]
 image: 
 ---

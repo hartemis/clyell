@@ -2,7 +2,7 @@
 layout: post
 title: TeleLeechX Bot
 date: 2022-07-13 03:20:00 +0200
-categories: Project
+categories: project
 tags: ["telegram", "python", "telegram-bot"]
 image: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: YouTube Uploader Bot
 date: 2022-07-23 03:20:00 +0200
-categories: Project
+categories: project
 tags: telegram bot python youtube
 image: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Anonymous Redirect / Referrer
 date: 2022-06-23 12:10:00 +0200
-categories: Project
+categories: project
 tags: javascript security privacy
 image: 
 ---

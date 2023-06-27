@@ -2,7 +2,7 @@
 layout: post
 title: GoodbyeDPITurkey
 date: 2022-05-05 12:10:00 +0200
-categories: Project
+categories: project
 tags: security
 image: 
 ---

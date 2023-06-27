@@ -2,7 +2,7 @@
 layout: post
 title: TemizAramaMotorum
 date: 2021-10-26 12:10:00 +0200
-categories: Project
+categories: project
 tags: security
 image: 
 ---

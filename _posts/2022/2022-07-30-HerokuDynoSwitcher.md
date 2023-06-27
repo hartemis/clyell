@@ -2,7 +2,7 @@
 layout: post
 title: Heroku Dyno Switcher
 date: 2022-07-30 03:20:00 +0200
-categories: Project
+categories: project
 tags: telegram heroku python
 image: 
 ---

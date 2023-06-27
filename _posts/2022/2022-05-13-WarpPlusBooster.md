@@ -2,7 +2,7 @@
 layout: post
 title: WarpPlusBooster
 date: 2022-05-13 12:10:00 +0200
-categories: Project
+categories: project
 tags: cloudflare
 image: 
 ---

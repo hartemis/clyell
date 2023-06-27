@@ -2,7 +2,7 @@
 layout: post
 title: AnonymousMessageForwarderBot
 date: 2022-06-19 12:10:00 +0200
-categories: Project
+categories: project
 tags: telegram bot python
 image: 
 ---

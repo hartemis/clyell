@@ -2,7 +2,7 @@
 layout: post
 title: Telegram Chat Size Calculator Bot
 date: 2022-07-12 03:20:00 +0200
-categories: Project
+categories: project
 tags: ["telegram", "python", "telegram-bot"]
 image: 
 ---
