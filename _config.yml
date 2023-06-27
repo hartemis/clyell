@@ -1,7 +1,7 @@
 # Site settings
 title: "HüzünlüArtemis"
 bye_message: "HüzünlüArtemis - All Rights Reversed"
-baseurl: "https://hartemis.github.io"
+baseurl: ""
 url: "https://hartemis.github.io"
 disqus: huzunluartemis
 
