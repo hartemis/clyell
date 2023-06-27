@@ -6,7 +6,6 @@ categories:
     - Project
 tags:
     - csharp
-image: 
 ---
 
 Yet another (Portable) FTP Client written only in C#. Platforms: Windows 7+ Any CPU
@@ -14,13 +13,6 @@ Yet another (Portable) FTP Client written only in C#. Platforms: Windows 7+ Any 
 Design inspired from [FileZilla](https://filezilla-project.org), Icons, images from [iconarchive.com](https://iconarchive.com)
 
 🔥 Repo: [HuzunluArtemis/MicroSharpFTP](https://gitlab.com/HuzunluArtemis/MicroSharpFTP)
-
-[![](https://img.shields.io/gitlab/license/HuzunluArtemis/MicroSharpFTP?style=flat)](#)
-[![](https://visitor-badge.laobi.icu/badge?page_id=huzunluartemis.MicroSharpFTP)](#)
-[![](https://img.shields.io/twitter/follow/huzunluartemis?&label=twitter&color=blue&style=flat&logo=twitter)](https://twitter.com/HuzunluArtemis)
-[![](https://img.shields.io/badge/telegram-up-blue?style=for-the-badge&logo=telegram&logoColor=blue&style=flat)](https://t.me/HuzunluArtemis)
-[![](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Frunkit.io%2Fdamiankrawczyk%2Ftelegram-badge%2Fbranches%2Fmaster%3Furl%3Dhttps%3A%2F%2Ft.me/HuzunluArtemis)](https://t.me/HuzunluArtemis)
-[![](https://img.shields.io/badge/artemis.pages-.dev-blue?style=flat&logo=devdotto&style=flat)](https://artemis.pages.dev/)
 
 ## Features
 
