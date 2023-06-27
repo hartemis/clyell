@@ -1,4 +1,5 @@
 ---
+layout: post
 title: DeDuplicateBot
 date: 2023-05-20 03:20:00 +0200
 categories: Project

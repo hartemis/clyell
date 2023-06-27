@@ -1,4 +1,5 @@
 ---
+layout: post
 title: QMirrorLeechBot
 date: 2022-05-01 12:10:00 +0200
 categories: Project

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: PlaylistAudioBot
 date: 2022-01-09 12:10:00 +0200
 categories: Project

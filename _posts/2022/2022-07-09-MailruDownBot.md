@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Telegram Mailru Downloader Bot
 date: 2022-07-09 03:20:00 +0200
 categories: Project

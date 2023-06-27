@@ -1,4 +1,5 @@
 ---
+layout: post
 title: TurkishAdblockList
 date: 2022-01-02 12:10:00 +0200
 categories: Project

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: FileHashBot
 date: 2022-06-29 12:10:00 +0200
 categories: Project

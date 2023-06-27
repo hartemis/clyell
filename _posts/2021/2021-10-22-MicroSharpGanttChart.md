@@ -1,4 +1,5 @@
 ---
+layout: post
 title: MicroSharpGanttChart
 date: 2021-10-22 12:10:00 +0200
 categories: Project

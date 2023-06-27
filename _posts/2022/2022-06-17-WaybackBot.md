@@ -1,4 +1,5 @@
 ---
+layout: post
 title: WaybackBot
 date: 2022-06-17 12:10:00 +0200
 categories: Project

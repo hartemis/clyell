@@ -1,4 +1,5 @@
 ---
+layout: post
 title: PlanetDP Altyazı İndirici Telegram Botu
 date: 2023-05-02 03:20:00 +0200
 categories: Project

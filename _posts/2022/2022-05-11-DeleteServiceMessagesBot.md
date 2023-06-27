@@ -1,4 +1,5 @@
 ---
+layout: post
 title: DeleteServiceMessagesBot
 date: 2022-05-11 12:10:00 +0200
 categories: Project

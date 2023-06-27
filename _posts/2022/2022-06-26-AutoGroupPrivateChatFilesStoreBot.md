@@ -1,4 +1,5 @@
 ---
+layout: post
 title: AutoGroupPrivateChatFilesStoreBot
 date: 2022-06-26 12:10:00 +0200
 categories: Project

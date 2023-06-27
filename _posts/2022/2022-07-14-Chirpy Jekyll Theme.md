@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Chirpy Jekyll Theme
 date: 2022-07-14 03:20:00 +0200
 categories: Project

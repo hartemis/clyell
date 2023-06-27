@@ -1,4 +1,5 @@
 ---
+layout: post
 title: ShortenerBot
 date: 2022-01-12 12:10:00 +0200
 categories: Project

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Installing ffmpeg for Windows
 date: 2022-07-29 03:20:00 +0200
 categories: Howto

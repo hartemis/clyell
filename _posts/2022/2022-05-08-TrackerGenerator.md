@@ -1,4 +1,5 @@
 ---
+layout: post
 title: TrackerGenerator
 date: 2022-05-08 12:10:00 +0200
 categories: Project
