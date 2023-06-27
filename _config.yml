@@ -1,8 +1,8 @@
 # Site settings
-title: "gjuniioor"
+title: "hartemis"
 bye_message: "Thx!"
 baseurl: "/clyell/"
-url: "https://gjuniioor.github.io"
+url: "https://hartemis.github.io"
 disqus: gjuniioor
 
 # Header settings
@@ -12,12 +12,12 @@ mail:
     ext: "ch"
 source_code:
     server: "github.com"
-    nick: "gjuniioor"
+    nick: "huzunluartemis"
 blog:
     server: "wordpress.com"
-    nick: "gjuniioor"
+    nick: "hartemis"
 fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title/
+permalink: /:title/
