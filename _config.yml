@@ -21,3 +21,14 @@ fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
+
+
+lang: tr-TR
+prefer_datetime_locale: tr
+timezone: Europe/Istanbul
+tagline: Revese Engineering and Malware Analysis
+description: >-                        # used by seo meta and the atom feed
+  A place where you can find Reversing Engineering CTF challenges writeups,
+  Malware Analysis reports and some low-level geeky stuff
+
+

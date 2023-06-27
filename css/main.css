@@ -8,10 +8,10 @@ body {
     line-height: unset !important;
     color: rgba(255,255,255,0.6);
     text-align: center;
-    //width: 800px;
+    /* width: 800px; */
 }
 h1 {
-  color: rgba(220,220,0,0.8);
+  color: rgba(174, 129, 255);
   font-size: 24px;
   font-family: monospace;
   font-weight: bold;
@@ -22,9 +22,9 @@ h4 { color: rgba(220,220,0,0.5); }
 h5 { color: rgba(220,220,0,0.4); }
 h6 { color: rgba(220,220,0,0.3); }
 footer {
-    color: rgba(220,220,0,0.8);
+    color: rgba(174, 129, 255);
     font-weight: bold;
-    //width: 60%;
+    /* width: 60%; */
     border-top: dashed 1px rgba(255,255,255,0.5);
     margin: 20px auto 15px;
     padding-top: 10px;
@@ -42,7 +42,7 @@ header p {
 }
 a {
     text-decoration: none;
-    color: rgba(220,220,0,0.8);
+    color: rgba(174, 129, 255);
 }
 .menu {
     border-top: 1px dashed rgba(255,255,255,0.5);
@@ -60,7 +60,7 @@ a {
 }
 .menu ul li a {
     text-decoration: none;
-    color: rgba(220,220,0,0.8);
+    color: rgba(174, 129, 255);
 }
 .menu ul li a:hover {
     padding: 2px;
