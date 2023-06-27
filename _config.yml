@@ -1,12 +1,12 @@
 # Site settings
-title: "hartemis"
-bye_message: "Thx!"
-baseurl: "/clyell/"
+title: "HüzünlüArtemis"
+bye_message: "HüzünlüArtemis - All Rights Reversed"
+baseurl: "https://hartemis.github.io"
 url: "https://hartemis.github.io"
 disqus: huzunluartemis
 
 # Header settings
-nick: "hartemis"
+nick: "huzunluartemis"
 mail:
     domain: "protonmail"
     ext: "ch"
@@ -14,7 +14,7 @@ source_code:
     server: "github.com"
     nick: "huzunluartemis"
 blog:
-    server: "wordpress.com"
+    server: "github.io"
     nick: "hartemis"
 fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
 
