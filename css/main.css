@@ -221,3 +221,11 @@ blockquote {
 margin: unset;
     font-size: 12px;
 }
+
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: transparent;
+    border-radius: 3px;
+  }
