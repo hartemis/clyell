@@ -3,7 +3,7 @@ layout: post
 title: MicroSharpFTP
 date: 2021-09-27 03:20:00 +0200
 categories:
-    - Project
+    - project
 tags:
     - csharp
 ---
