@@ -11,7 +11,7 @@ mail:
     domain: "protonmail"
     ext: "ch"
 source_code:
-    server: "github.com"
+    server: "gitlab.com"
     nick: "huzunluartemis"
 blog:
     server: "github.io"
