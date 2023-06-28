@@ -1,0 +1,215 @@
+---
+layout: compress
+title: "Anonim Yönlendirme"
+permalink: /redirect/
+---
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>Anonim Yönlendirme</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- http://caniuse.com/#feat=referrer-policy -->
+    <meta name="referrer" content="no-referrer" />
+    <!-- For Edge and Safari -->
+    <meta name="referrer" content="never" />
+
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.428571429;
+            color: #d279ff;
+            background-color: #000;
+        }
+
+        .main {
+            padding: 70px 15px;
+            text-align: center;
+        }
+
+        .title {
+            margin: 0 0 30px;
+            line-height: 1.2;
+        }
+
+        .text {
+            max-width: 800px;
+            margin: 0 auto 20px;
+            line-height: 1.6;
+        }
+        .copyable{
+            color: #d279ff;
+        }
+        .copyable:hover,
+        .copyable:focus {
+            color: #6cb013;
+        }
+
+        code {
+            display: block;
+            word-break: break-word;
+        }
+
+        .button {
+            display: inline-block;
+            vertical-align: middle;
+            min-width: 200px;
+            margin-bottom: 30px;
+            background-image: none;
+            padding: 13px 15px;
+            font-family: inherit;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center;
+            text-transform: capitalize;
+            text-decoration: none;
+            white-space: nowrap;
+            color: #fff;
+            background-color: #5da300;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button:hover,
+        .button:focus {
+            background-color: #487e00;
+            outline: 0;
+        }
+
+        footer {
+            max-width: 400px;
+            margin: 0 auto;
+            font-size: 13px;
+            color: #80ae7b;
+        }
+
+        .link {
+            color: #80ae7b;
+            text-decoration: none;
+        }
+
+        .link:hover,
+        .link:focus {
+            color: #a8c9a5;
+            text-decoration: none;
+        }
+
+        .wrap {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="title">
+            ☢️ Anonim Yönlendirme ☢️
+        </h1>
+
+        <p class="text">
+            Nereden geldiğin belli olmadan yönlendirileceksin:
+            <code id="currentUrl" class="copyable">https://example.org/</code>
+        </p>
+
+        <div class="wrap">
+            <button type="button" class="button" id="redirectButton">
+                Beni Anonim Yönlendir
+            </button>
+        </div>
+
+        <footer>
+            Bu sayfanın amacı, kullanıcılarını takipten korumaktır.<br>
+            Tarayıcının betiklere (script) izin verdiğinden emin ol.<br>
+            İstersen linkinin üzerine tıklayarak kopyalayabilirsin.<br>
+            <a href="https://gitlab.com/HuzunluArtemis/AnonymousRedirect" class="link" target="_blank">Kaynak Kodu</a> |
+            <a href="https://artemis.pages.dev/AnonymousRedirect/" class="link" target="_blank">Link Oluştur</a>
+        </footer>
+    </div>
+
+    <script type="text/javascript">
+        if (!String.prototype.endsWith) {
+            Object.defineProperty(String.prototype, 'endsWith', {
+                value: function (searchString, position) {
+                    var subjectString = this.toString();
+                    if (position === undefined || position > subjectString.length) {
+                        position = subjectString.length;
+                    }
+                    position -= searchString.length;
+                    var lastIndex = subjectString.indexOf(searchString, position);
+                    return lastIndex !== -1 && lastIndex === position;
+                },
+            });
+        }
+
+        function getParameterByName(name, url) {
+            if (!url) {
+                url = window.location.href;
+            }
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        function getHostname(url) {
+            if (!url) {
+                return '';
+            }
+
+            var hostname = '';
+
+            if (url.indexOf('//') > -1) {
+                hostname = url.split('/')[2];
+            } else {
+                hostname = url.split('/')[0];
+            }
+
+            hostname = hostname.split(':')[0];
+            hostname = hostname.split('?')[0];
+
+            return hostname;
+        }
+
+        var url = getParameterByName('url');
+        var host = getHostname(document.referrer);
+
+        if (host === 'adguard.com' || host.endsWith('.adguard.com')) {
+            performRedirect();
+        }
+
+        var currentUrl = document.getElementById('currentUrl');
+
+        if (currentUrl) {
+            currentUrl.innerText = url;
+        }
+
+        function performRedirect() {
+            // Rick-rolling in case of wrong URL
+            window.location.href = url || 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+        }
+        function performCopy() {
+            // Rick-rolling in case of wrong URL
+            navigator.clipboard.writeText(copyText.textContent);
+        }
+
+        var redirectButton = document.getElementById('redirectButton');
+        var copyText = document.getElementById('currentUrl');
+
+        if (redirectButton) {
+            redirectButton.addEventListener('click', performRedirect);
+        }
+        if (copyText) {
+            copyText.addEventListener('click', performCopy);
+        }
+    </script>
+
+    <body>
+</html>
