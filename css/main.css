@@ -16,11 +16,11 @@ h1 {
   font-family: monospace;
   font-weight: bold;
 }
-h2 { color: rgba(220,220,0,0.7); }
-h3 { color: rgba(220,220,0,0.6); }
-h4 { color: rgba(220,220,0,0.5); }
-h5 { color: rgba(220,220,0,0.4); }
-h6 { color: rgba(220,220,0,0.3); }
+h2 { color: rgba(172 255 172 / 89%); }
+h3 { color: rgba(172 255 172 / 88%); }
+h4 { color: rgba(172 255 172 / 87%); }
+h5 { color: rgba(172 255 172 / 86%); }
+h6 { color: rgba(172 255 172 / 85%); }
 footer {
     color: rgba(174, 129, 255);
     font-weight: bold;
@@ -32,12 +32,12 @@ footer {
 header {
     margin-top: 25px;
     margin-bottom: 10px;
-    color: rgba(220,220,0,0.9);
+    color: rgba(172 255 172 / 90%);
 }
 header p {
     text-align: left;
     margin: 0;
-    /* color: rgba(220,220,0,0.7); */
+    /* color: rgba(172 255 172 / 70%); */
     color: rgba(255,255,255,0.5);
 }
 a {
@@ -64,14 +64,14 @@ a {
 }
 .menu ul li a:hover {
     padding: 2px;
-    border-left: 1px dashed rgba(220,220,0,0.5);
-    border-right: 1px dashed rgba(220,220,0,0.5);
+    border-left: 1px dashed rgba(172 255 172 / 60%);
+    border-right: 1px dashed rgba(172 255 172 / 57%);
 }
 main {
     text-align: left;
 }
 a:hover {
-		color: rgba(220,220,0,0.6);
+		color: rgba(172 255 172 / 60%);
 }
 pre {
     background-color: rgba(255,255,255,0.05);
@@ -204,10 +204,10 @@ table a {
     color: rgba(255,255,255,0.3);
 }
 .reserved {
-    color: rgba(220,220,0,0.4);
+    color: rgba(172 255 172 / 88%);
 }
 .string {
-    color: rgba(220,220,0,0.7);
+    color: rgba(172 255 172 / 70%);
 }
 .function {
     color: rgba(255,255,255,0.5);
